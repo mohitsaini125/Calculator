@@ -1,9 +1,7 @@
-import { useState } from "react";
-import { StyleSheet } from "react-native";
-import { TouchableOpacity } from "react-native";
-import { Text } from "react-native";
-import { View } from "react-native";
+//calculator app
 import { evaluate } from "mathjs";
+import { useState } from "react";
+import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 const buttons = [
   ["C", "DEL", "^", "÷"],
   ["7", "8", "9", "×"],
