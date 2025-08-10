@@ -57,7 +57,7 @@ export default function Home() {
       <View style={styles.buttonContainer}>
         {buttons.map((row, index) => {
           return (
-            <View key={row} style={styles.buttons}>
+            <View key={index} style={styles.buttons}>
               {row.map((btn, index) => {
                 return (
                   <TouchableOpacity
